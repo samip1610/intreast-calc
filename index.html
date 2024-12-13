@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interest Calculator</title>
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <label for="amount">Amount: </label>
+        <input type="text" name="amount" id="amount">
+        <br>
+
+        <label for="year">Year: </label>
+        <input type="text" name="year" id="year">
+        <br>
+
+        <label for="interest">Interest Rate: </label>
+        <input type="text" name="interest" id="interest">
+        <br>
+
+        <button id="submit" onclick="calcInterest()">Calculate</button>
+        <p id="res"></p>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
